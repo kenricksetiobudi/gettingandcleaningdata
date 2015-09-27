@@ -28,14 +28,6 @@ TrainingSubject_data <- read.table(file.path(datapath,"train","subject_train.txt
 TestFeatures_data <- read.table(file.path(datapath,"test","X_test.txt"),header=F)
 TrainingFeatures_data <- read.table(file.path(datapath,"train","X_train.txt"),header=F)
 
-#CHECK
-str(TestActivity_data)
-str(TrainingActivity_data)
-str(TestSubject_data)
-str(TrainingSubject_data)
-str(TestFeatures_data)
-str(TrainingFeatures_data)
-
 # Step 1 - Merges the training and the test sets to create one data set.
 Subject_data <- rbind(TrainingSubject_data, TestSubject_data)
 Activity_data<- rbind(TrainingActivity_data, TestActivity_data)
