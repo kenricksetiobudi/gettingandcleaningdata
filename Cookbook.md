@@ -1,8 +1,8 @@
 # Cookbook
-## Purpose of the cookbook
+### Purpose of the cookbook
 This cookbook serves as a way to document the list of transformations performed to clean up the data into a "tidy format" data.
 
-## Data Variables - Explanation
+### Data Variables - Explanation
 The submitted data table 'DataSet_Step5.txt" is referred to in the 'R' code as 'DATA' data.table.
 
 |Revised Column Names|Initial Names|
